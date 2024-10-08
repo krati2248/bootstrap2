@@ -1,0 +1,234 @@
+*
+{
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Arial';
+}
+.logo
+{
+    width:64px;
+}
+.navbar
+{
+    background-color: #00000082 !important;
+    text-transform: uppercase;
+}
+.navbar-nav li
+{
+    padding: 0px 7.6px;
+}
+.navbar-nav li a
+{
+    color: white !important;
+     
+    font-size: 14px;
+    
+}
+.navbar-nav li a:hover
+{
+    background-color: orange;
+}
+.ih
+{
+    width: 100%;
+    height: 648px;
+    background-image: url('https://pn-paul.netlify.app/image/ourimage.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ip
+{
+    width: 100%;
+    height: 648px;
+    background-image: url('https://pn-paul.netlify.app/image/new-our-team.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oe
+{
+    width:380px; 
+    height: 400px;
+    background-image: url('https://pn-paul.netlify.app/image/Sagar-Bajaj.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    padding: 40px;
+}
+.oj
+{
+    width: 400px;
+    height: 400px;
+    background-image: url('https://pn-paul.netlify.app/image/B.R.-Sachdeva.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-radius: 14px;
+}
+.op
+{
+    width: 400px;
+    height: 400px;
+    background-image: url('https://pn-paul.netlify.app/image/JAY-PHOTO-1-1.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+.pj
+{
+    width: 100%;
+    height: 648px;
+    background-image: url('https://pn-paul.netlify.app/image/new-careers-1.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b
+{
+    letter-spacing: 1px;
+    word-spacing: 1.4px;
+    line-height: 2.4rem;
+    text-align: justify;
+    font-weight:lighter;
+    padding-bottom: 40px;
+}
+.j
+{
+    width:100%;
+    
+    background-image: url('https://pn-paul.netlify.app/image/gamebanner.jpg');
+     
+     
+
+}
+.ia
+{
+    width:100%;
+    height: 528px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px 0px;
+    padding: 20px;
+    border-radius: 11px;
+}
+.ba
+{
+    padding-top: 140px;
+
+}
+.th
+{
+    word-spacing: 1px;
+    font-weight: lighter;
+}
+.bj
+{
+    width: 280px;
+}
+.ib
+{
+    text-align: justify;
+}
+.a
+{
+    background-color: black;
+    color: rgb(204, 204, 204);
+}
+.il
+{
+    width: 100%;
+    height: 648px;
+    background-image: url('https://pn-paul.netlify.app/image/brands.jpg');
+
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hb
+{
+    width: 100%;
+    height: 648px;
+    background-image: url('https://pn-paul.netlify.app/image/press-new-1.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dj
+{
+    width:100%;
+    height: 480px;
+    border: none;
+}
+hr
+{
+    border:0.2px solid black;
+}
+.bord
+{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.jb
+{
+    height: 380px;
+    border-radius: 14px;
+}
+.hj
+{
+    margin-top: -48px;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+}
+.moblogo
+{
+    display: none;
+}
+.oi
+{
+    width:100%;
+    height: 648px;
+    background-image: url('https://pn-paul.netlify.app/image/CONTACT-US.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+h6
+{
+    color: orange;
+    text-transform: capitalize;
+}
+@media (max-width:768px)
+{
+    .logo
+    {
+        display: none;
+    }
+    .moblogo
+    {
+        display:block
+    }
+    .navbar
+    {
+        background-color: orange !important;
+    }
+}

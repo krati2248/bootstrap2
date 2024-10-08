@@ -1,0 +1,207 @@
+body
+{
+    background-color: black;
+} 
+.navbar
+{
+    padding:0px 80px;
+    display: flex;
+    flex-direction: row;
+}
+img
+{
+    width: 180px;
+    height: auto;
+}
+.i
+{
+   margin-right:40%;
+}
+.pd
+{
+    /* max-width:100%; */
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../image/nt.png');
+    background-size: cover;
+    background-position: center;
+    height: 98vh;
+     
+}
+p
+{
+    color: white;
+     
+    padding-top: 0px;
+    font-size:2.8rem;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+.il
+{
+    color: white;
+     
+    padding-top: 0px;
+    font-size:2rem;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+.ph
+{
+    font-size: 18px;
+}
+.j
+{
+    font-size: 4.4vw;
+    font-weight: 800;
+}
+.ih
+{
+    width: 100%;
+    height: auto;
+    
+}
+.ib
+{
+    padding-top: 16rem;
+}
+h1
+{
+    height: 40px;
+    color: white;
+    padding-top: 280px;
+    /* position: absolute;  */
+    /* top:80px; */
+    font-size:2.98rem;
+    font-weight: bold;
+    padding-bottom: 0px;
+    /* margin-bottom: 8px; */
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center; 
+}
+ 
+.form-control
+{
+    width: 400px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.6);
+}
+.form-control::placeholder
+{
+    color: rgb(104, 102, 102);
+     
+}
+form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+form .btn
+{
+    width: 160px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+hr
+{
+    height:40px;
+} 
+.th
+{
+    width:60%;
+    height:auto;
+}
+.jh
+{
+    width:80%;
+    height: auto;
+     
+}
+@media (max-width:900px) {
+    img {
+        width: 160px;
+         
+    }
+    h1
+    {
+        font-size:2.4rem;
+    }
+}
+@media(max-width:800px)
+{
+
+    .pd
+    {
+        padding: 11px;
+    }
+    .navbar
+    {
+        padding: 6px;
+    }
+}
+@media(max-width:600px)
+{
+    .navbar
+    {
+        padding:6px;
+    }
+     
+    h1
+    {
+        font-size:2.1rem;
+        /* padding-top: 180px; */
+    }
+    form
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .form-control
+    {
+        width: 280px;
+    }
+    .ib
+    {
+        font-size: 2rem;
+        padding-top: 11rem;
+    } 
+    .j
+    {
+        font-size: 8.9vw;
+    }
+}
+@media (max-width:400px)
+{
+    .ib
+    {
+        font-size:18px;
+    }
+    /* .form-control
+    {
+        width:180px;
+        height: 24px;
+    } */
+    .il
+    {
+        font-size: 18px;
+    }
+}
+@media (max-width:300px)
+{
+    .form-control
+    {
+        width: 100%;
+        height: 40px;
+    }
+    .btn
+    {
+        display: none;
+    }
+     
+}
