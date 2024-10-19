@@ -30,6 +30,21 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
+    
+}
+.h
+{
+    background: url(https://pn-paul.netlify.app/image/ffback2.png);
+    width: 100%;
+    /* height: 500px; */
+    padding: 48px 40px;  
+    background-size: cover;
+    /* padding-top:140px;
+    padding-bottom: 120px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+     
 }
 .d
 {
@@ -56,6 +71,7 @@
 {
     margin-top: 28px;
     margin-bottom: 100px;
+    /* text-transform: capitalize; */
 }
 .t
 {

@@ -40,6 +40,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+     
+}
+.ih h1
+{
+    font-size: 48px;
 }
 .ip
 {
@@ -52,6 +57,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.ip h1
+{
+    font-size: 38px;
 }
 .oe
 {
@@ -74,6 +83,7 @@
     background-repeat:no-repeat;
     border-radius: 14px;
 }
+ 
 .op
 {
     width: 400px;
@@ -95,6 +105,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.pj h1
+{
+    font-size: 48px;
 }
 .b
 {
@@ -159,6 +173,10 @@
     justify-content: center;
     align-items: center;
 }
+.il h1
+{
+    font-size: 60px;
+}
 .hb
 {
     width: 100%;
@@ -170,6 +188,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hb h1
+{
+    font-size: 38px;
 }
 .dj
 {
@@ -211,6 +233,10 @@ hr
     display: flex;
     justify-content:center;
     align-items: center;
+}
+.oi h1
+{
+    font-size: 48px;
 }
 h6
 {
